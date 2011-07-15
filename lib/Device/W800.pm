@@ -112,7 +112,7 @@ version 1.111960
   }
 
   # for a networked device
-  my $rx = Device::W800->new(device => '10.0.0.1:10001');
+  $rx = Device::W800->new(device => '10.0.0.1:10001');
 
 =head1 DESCRIPTION
 
