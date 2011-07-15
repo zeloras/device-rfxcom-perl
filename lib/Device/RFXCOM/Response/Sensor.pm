@@ -89,8 +89,7 @@ message.
 
 =head2 C<units()>
 
-This method returns the units of the L<value> in the sensor RF
-message.
+This method returns the units of the value() in the sensor RF message.
 
 =head2 C<summary()>
 

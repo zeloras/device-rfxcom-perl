@@ -199,6 +199,7 @@ version 1.111960
   $|=1; # don't buffer output
 
   # simple interface to read received data
+  my $timeout = 10; # 10 seconds
   while (my $data = $rx->read($timeout)) {
     print $data->summary,"\n" unless ($data->duplicate);
   }

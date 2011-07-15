@@ -84,7 +84,7 @@ undefined if no unit code is present for the house code.
 =head2 C<house()>
 
 This method returns the X10 house code from the RF message.  That is,
-C<a>, C<b>, ... C<p>.  It will be undefined if L<device> is defined.
+C<a>, C<b>, ... C<p>.  It will be undefined if device() is defined.
 
 =head2 C<command()>
 
